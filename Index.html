@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-03: Campos do Formulario</title>
+</head>
+
+         <style>
+        #mensagem{
+           font-size: 11px;
+           margin-left: 99px;
+           margin-top: 5px;
+           margin-bottom: -10px;
+        }
+        #sms{
+           font-size: 11px;
+           margin-left: 99px;
+           margin-top: 5px;
+        }
+    </style>
+<body>
+    <fieldset style="width: 390px;">
+        <label for="inome">Nome: </label>
+        <input type="text" class="inputs" name="nome" id="inome" placeholder="Introduza o nome" style="margin-left: 41px;">
+        <div id="mensagem"></div>
+        <br><br>
+        <label for="iemail">Email: </label>
+        <input type="email" class="inputs" name="email" id="iemail" style="margin-left: 43px;" placeholder="Introduza o email">
+        <div id="sms"></div>
+        <br><br>
+        <button name="submited" onclick="registar();">Submeter</button>
+    </fieldset>
+    <script src="../js/js.js"></script>
+</body>
+</html>
